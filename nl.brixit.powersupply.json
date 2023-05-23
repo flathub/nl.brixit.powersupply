@@ -17,11 +17,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.com/MartijnBraam/powersupply",
-                    "tag": "0.8.0"
-                },
-                {
-                    "type": "patch",
-                    "path": "nl.brixit.powersupply.appdata.xml.patch"
+                    "tag": "0.9.0"
                 }
             ]
         }
