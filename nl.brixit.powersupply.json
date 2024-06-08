@@ -1,7 +1,7 @@
 {
     "app-id": "nl.brixit.powersupply",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "44",
+    "runtime-version": "46",
     "sdk": "org.gnome.Sdk",
     "command": "powersupply",
     "finish-args": [
@@ -22,6 +22,10 @@
                         "type": "git",
                         "version-scheme": "semantic"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "fix_appdata.patch"
                 }
             ]
         }
